@@ -39,26 +39,27 @@
   3. [ SPACE ] replace string address to new address
 
 
-  OllyDbg
-  - Code Window : disassembly codes
-  - Register Window : CPU Register
-  - Dump Window : memery address in Hex, ASCII
-  - Stack Window : process stack memory pointed by ESP register
+
+OllyDbg
+- Code Window : disassembly codes
+- Register Window : CPU Register
+- Dump Window : memery address in Hex, ASCII
+- Stack Window : process stack memory pointed by ESP register
 
 
-  Debugging
-  - red comments is name of function
-  - arguments can be seen in comments
+Debugging
+- red comments is name of function
+- arguments can be seen in comments
 
 
-  EP : Enty Point(Start point)
-  - Address : Virtual address of process (ex: 000411A0)
-  - Instruction : IA32 or x86 CPU order (ex: E8 6715000)
-  - Disassembled code : assembled OP code for easier viewing
-  - comment : comments depend on options
+EP : Enty Point(Start point)
+- Address : Virtual address of process (ex: 000411A0)
+- Instruction : IA32 or x86 CPU order (ex: E8 6715000)
+- Disassembled code : assembled OP code for easier viewing
+- comment : comments depend on options
 
 
-  Terms
-  - VA : Virtual address
-  - OP code : Operation code (CPU order)
-  - PE : Portable Executable (EXE, DLL, SYS)
+Terms
+- VA : Virtual address
+- OP code : Operation code (CPU order)
+- PE : Portable Executable (EXE, DLL, SYS)
