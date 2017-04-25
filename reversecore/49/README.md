@@ -24,6 +24,17 @@
 - ESI : Source pointer for string operations (ESI EDI는 LODS, STOS, REP MOVS와 함께 주로 사용)
 - EDI : destination pointer for string operations
 
+```
+AX: 누산 레지스터라고 불리거나 연산 레지스터라고 불립니다. 계산에 주로 사용됩니다.+
+BX: 베이스 주소 레지스터라고 불립니다. 메모리 주소를 계산할 때 사용됩니다.
+CX: 카운터 레지스터라고 불립니다. 반복문에서 지금 몇번째로 반복하고 있는지를 기억할 때 사용됩니다.
+DX: 데이터 레지스터입니다. 계산의 결과 값을 저장하거나 메모리에서 읽어온 데이터를 저장합니다.
+SI: 소스 인덱스 레지스터(Source Index Register)라고 불립니다. 메모리 복사 등에서 원본 데이터의 주소를 저장할 때 사용합니다.
+DI: 목적지 인덱스 레지스터(Destination Index Register)라고 불립니다. 메모리 복사 등에서 목적지의 주소를 저장할 때 사용합니다.
+BP: 베이스 포인터 레지스터(Base Pointer Register)입니다. 스택 주소를 보존하는데 사용됩니다.
+SP: 스택 포인터 레지스터(Stack Pointer Register)입니다. 현재의 스택 주소가 저장됩니다
+```
+
 
 #### 세그먼트 레지스터
 
